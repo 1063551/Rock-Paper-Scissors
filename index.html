@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="index.js"></script>
+        <script>
+            var settings = "1"
+            calljs(settings);
+        </script>
+    </head>
+    
+    <body>
+        <header>
+            <div id = "Creator">
+                <p id = "CreatorP">Created by <a href="https://github.com/1063551/Rock-Paper-Scissors">1063551</a><br>A Star would be appreciated</p>
+            </div>
+            <div id = "Title">
+                <h1>Rock Paper Scissors</h1>
+            </div>
+        </header>
+        <div id="all">
+            <div id = "display">
+                <div id="displayLeft">
+                    <img src="imgs/Bearded-Nordic-Chad.png" alt="Chad" style="width:250px;">
+                </div>
+                <div id="marcador">
+                    <div id="marcadorL"><p id="pMarcadorL">0</p></div>
+                    <div id="marcadorC"><p>-</p></div>
+                    <div id="marcadorR"><p id="pMarcadorR">0</p></div>
+                </div>
+                <div id="displayRight">
+                    <img src="imgs/ai.png" alt="Computer" style="width:270px; margin-top: -190px;">
+                </div>
+            </div>
+
+            <div id="buttons">
+                <div id="left">
+                    <form id="RForm" >
+                        <input type="image" id="RockInput" alt="Rock" value="Rock"src="imgs/ROCK.png" alt="Submit Form">
+                    </form>
+                </div>
+                <div id="right">
+                    <form id="SForm" >
+                        <input type="image" id="ScissorsInput" alt="Scissors" value="Scissors" src="imgs/SCISSORS.png"   style="width:150px; height: 150px;" alt="Submit Form">
+                    </form>  
+                </div>
+                <div id="center">
+                    <form id="PForm" >
+                        <input type="image" id="PaperInput" alt="Paper" value="Paper" src="imgs/PAPER.png"  style="width:150px; height: 150px;" alt="Submit Form">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
