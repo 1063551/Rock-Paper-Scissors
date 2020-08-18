@@ -15,7 +15,7 @@ function calculateWinner(chadVal, machineVal) {
             (machineVal == "Scissors") ? retVal = -1 : retVal = 1;
             break;
         default:
-            alert("DEFAULT OPTION OF CALCULATEWINNER() 404 DANGER SOS");
+            alert("DEFAULT OPTION 404 DANGER SOS");
             break;
     }
 
